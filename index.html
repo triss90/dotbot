@@ -5,14 +5,28 @@
 	<title>_dot</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body id="dots">
+<body id="dots" style="min-height:100vh;">
 
-	<div class="_dot _dot--yellow"></div>
+	<h1>Lorem ipsum </h1>
+	<p>Dolor sit amet, eu vim paulo adipisci forensibus, saperet elaboraret adversarium in est. Duis argumentum his ex, augue harum ocurreret ei sit, atqui minimum te qui. Tritani dissentiet no vel, ubique abhorreant vix ea. His falli vocent an, eu maluisset dissentiet duo, minim eirmod integre no pro. In est delicata conceptam efficiantur.</p>
+	<p>Congue nonumy praesent eam eu. Ei bonorum voluptatibus pri, sit unum feugiat signiferumque ei. Ipsum mediocritatem conclusionemque eum cu, et mel dicam mandamus, pro ad ullum persius constituto. Has purto eius minimum ei, in mea summo putant, ius in atqui utamur. Mei an quodsi fierent, legimus blandit antiopam an has, ludus populo necessitatibus pro cu.</p>
 
 	<script src="index-min.js" type="text/javascript" charset="utf-8"></script>
 	<script>
 	var myDots = new dot({
-        selector: 'dots'
+        selectorId: 'dots',
+        parentPosition: "relative",
+        colors: [
+			"blue",
+			"rgb(126, 211, 33)",
+			"#f06d06"
+		],
+        sizeMin: 3,
+		sizeMax: 80,
+		dots: 35,
+		radius: 0,
+		opacity: 0.1,
+		zIndex: -1
     });
 	</script>
 
