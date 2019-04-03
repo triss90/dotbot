@@ -1,0 +1,13 @@
+{
+  "name": "dotbot",
+  "version": "1.0.0",
+  "description": "dotbot is a simple library that let's you create a randomised, dotted background-pattern on any given element on your website.",
+  "main": "dotbot-min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/triss90/dotbot"
+  },
+  "author": "Tristan White",
+  "homepage": "https://github.com/triss90/dotbot",
+  "license": "MIT"
+}
