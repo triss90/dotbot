@@ -6,6 +6,7 @@ dotbot is a simple library that let's you create a randomised, dotted background
 ![Example](example.png)
 
 To initiate dotbot. simply include the library and call the dot function like so:
+<code>https://cdn.jsdelivr.net/npm/dotbot@1.0.0/dotbot.min.js</code>
 <pre><code>var myDots = new dotbot({
   selectorId: "dotbot-selector-id"
 )};
